@@ -88,10 +88,14 @@ body {
     letter-spacing: 0.02em;
     color: #212121;
     position: relative;
-    padding-bottom: 32px;
+    padding: 32px 0;
 }
 .header_link:hover, 
 .header_link:focus{
+    color: #2196F3;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header_page {
     color: #2196F3;
 }
 .header_page::after {
@@ -114,10 +118,12 @@ body {
     color: #757575;
     display: flex;
     align-items: center;
+    padding: 32px 0;
 }
 .header_link_cont:hover,
 .header_link_cont:focus {
     color: #2196F3;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts_icon {
     fill: currentColor;
@@ -183,6 +189,7 @@ body {
 .cap_btn:focus {
     background-color: #2196F3;
     color: #FFFFFF;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*FEAUTERS */
@@ -244,8 +251,12 @@ body {
     right: 0;
     left: 0;
     margin: 0;
-    padding: 27px 0;
+    /* padding: 27px 0; */
     background-color: rgba(47, 48, 58, 0.8);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
     font-style: normal;
     font-weight: 700;
@@ -316,6 +327,7 @@ body {
 .team_sm_link:focus {
     background-color: #2196F3;
     fill: #FFFFFF;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* CLIENT */
 .client {
@@ -350,6 +362,7 @@ body {
 .client_link:focus {
     fill: #2196F3;
     border-color:#2196F3;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* FOOTER */
 .footer {
@@ -386,6 +399,7 @@ body {
 }
 .location_link:hover {
     color: #2196F3;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer_link_cont {
     font-style: normal;
@@ -401,6 +415,7 @@ body {
 .footer_link_cont:hover,
 .footer_link_cont:focus {
     color: #2196F3;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .join {
     display: flex;
@@ -438,6 +453,7 @@ body {
 .join_link:focus {
     background-color: #2196F3;
     fill: #FFFFFF;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -463,6 +479,7 @@ body {
     background-color: #2196F3;
     color: #FFFFFF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filt_list {
     display: flex;
@@ -482,7 +499,7 @@ body {
     width: 370px;
     box-sizing: border-box;
 }
-.projects_item:hover .projects_top_text {
+.projects_link:hover .projects_top_text {
     transform: translateY(0%);
 }
 .projects_top_wrap {
@@ -529,6 +546,7 @@ body {
 .projects_link:hover {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     display: block;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
