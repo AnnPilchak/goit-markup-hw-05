@@ -89,11 +89,13 @@ body {
     color: #212121;
     position: relative;
     padding: 32px 0;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header_link:hover, 
 .header_link:focus{
     color: #2196F3;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header_page {
     color: #2196F3;
@@ -119,11 +121,13 @@ body {
     display: flex;
     align-items: center;
     padding: 32px 0;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header_link_cont:hover,
 .header_link_cont:focus {
     color: #2196F3;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts_icon {
     fill: currentColor;
@@ -184,12 +188,14 @@ body {
     display: flex;
     min-width: 216px;
     border-radius: 4px;
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .cap_btn:hover,
 .cap_btn:focus {
     background-color: #2196F3;
     color: #FFFFFF;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*FEAUTERS */
@@ -322,12 +328,14 @@ body {
     align-items: center;
     justify-content: center;
     fill: #AFB1B8;
+    transition-property: background-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team_sm_link:hover, 
 .team_sm_link:focus {
     background-color: #2196F3;
     fill: #FFFFFF;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* CLIENT */
 .client {
@@ -357,12 +365,14 @@ body {
     align-items: center;
     justify-content: center;
     fill: #AFB1B8;
+    transition-property: fill, border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client_link:hover,
 .client_link:focus {
     fill: #2196F3;
     border-color:#2196F3;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* FOOTER */
 .footer {
@@ -396,10 +406,12 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .location_link:hover {
-    color: #2196F3;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #2196F3;;
 }
 .footer_link_cont {
     font-style: normal;
@@ -408,6 +420,9 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts_item:not(:last-child) {
     margin-bottom: 9px;
@@ -415,7 +430,6 @@ body {
 .footer_link_cont:hover,
 .footer_link_cont:focus {
     color: #2196F3;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .join {
     display: flex;
@@ -447,13 +461,15 @@ body {
     align-items: center;
     justify-content: center;
     fill: #FFFFFF;
+    transition-property: background-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .join_link:hover,
 .join_link:focus {
     background-color: #2196F3;
     fill: #FFFFFF;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -473,13 +489,15 @@ body {
     cursor: pointer;
     border-radius: 4px;
     padding: 6px 22px;
+    transition-property: background-color, color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filt_btn:hover,
 .filt_btn:focus {
     background-color: #2196F3;
     color: #FFFFFF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filt_list {
     display: flex;
@@ -488,8 +506,8 @@ body {
     justify-content: center;
     margin-bottom: 50px;
 }
-/* PROJECTS */
 
+/* PROJECTS */
 .projects_list {
     display: flex;
     gap: 30px;
@@ -543,10 +561,14 @@ body {
     border-left: 1px solid #EEEEEE;;
     border-bottom: 1px solid #EEEEEE;
 }
+.projects_link {
+    transition-property: background-color, display;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .projects_link:hover {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     display: block;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
